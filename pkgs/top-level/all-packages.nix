@@ -14598,6 +14598,8 @@ in
 
   subunit = callPackage ../development/libraries/subunit { };
 
+  sunvox = callPackage ../applications/audio/sunvox { };
+
   surf = callPackage ../applications/networking/browsers/surf {
     webkit = webkitgtk2;
   };
